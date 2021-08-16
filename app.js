@@ -1,7 +1,5 @@
 const container = document.getElementById('grid');
 
-// Make cells:
-
 const makeCell = function (cells) {
     for (let i = 0; i < cells; i++) {
         cell = document.createElement('div');
